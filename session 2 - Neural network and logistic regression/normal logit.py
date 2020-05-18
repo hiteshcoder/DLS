@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu May  7 19:06:32 2020
-https://www.pluralsight.com/guides/classification-keras
+
 @author: hitz_
 """
 import pandas as pd
