@@ -13,3 +13,6 @@ Session -3
 Mathematical representation of what is going on in the neural network mathematically . 
 How do we understand this mathematics in laymans term.
 After converting this into laymans term, we also implement these mathematical logic into our python notebook over same example.
+
+session -4
+Taking this concept one step ahead, understanding NN with one hidden layer
