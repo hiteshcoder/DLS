@@ -100,7 +100,7 @@ def initialize_parameters(n_x, n_h, n_y):
     
    #write the code here , initilize w1,w2,b1,b2 with random values for w and zeros for b.Dimension is mentioned
    #4 line of code, each line for one variable 
-   W1 = 
+    W1 = 
     b1 = 
     W2 = 
     b2 = 

@@ -11,6 +11,11 @@ What will you do ?
 4.Show me the value of learning rate that you have taken
 https://www.kaggle.com/mohansacharya/graduate-admissions
 
+Assignment -2
+1.Complete the code in session 5
+2.Implement the code for the data set of assignment 2, random states-20 , iteration =10000 , learning rate =1.2
+3.Change the parameteres , or change whatever is changable and produce a good accuracy for test. Compare with train and comment about bias and variance
+
 session -1 
 Understanding logistic regression and implementation in python
 This session also contains the conversion of linear regression to logistic regression
@@ -26,3 +31,11 @@ After converting this into laymans term, we also implement these mathematical lo
 
 session -4
 Taking this concept one step ahead, understanding NN with one hidden layer
+
+session -5
+Uploaded a notebook 
+Session speaks about single layered neural network 
+
+session -6 
+bakcpropagation of single layered neural network
+initialization methods
