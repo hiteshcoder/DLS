@@ -98,13 +98,12 @@ def initialize_parameters(n_x, n_h, n_y):
     
     np.random.seed(2) # we set up a seed so that your output matches ours although the initialization is random.
     
-   #write the code here , initilize w1,w2,b1,b2 with random values for w and zeros for b.Dimension is mentioned
-   #4 line of code, each line for one variable 
-    W1 = 
-    b1 = 
-    W2 = 
-    b2 = 
-    #code ends
+   
+    W1 = np.random.randn(n_h,n_x)*0.01
+    b1 = np.zeros((n_h,1))
+    W2 = np.random.randn(n_y,n_h)*0.01
+    b2 = np.zeros((n_y,1))
+    
     
     assert (W1.shape == (n_h, n_x))
     assert (b1.shape == (n_h, 1))
@@ -212,14 +211,14 @@ def backward_propagation(parameters, cache, X, Y):
     
     
     # Backward propagation: calculate dW1, db1, dW2, db2. 
-   #write the code here for dZ2,dW2,dB2,dZ1,dW1,dB1( only the dw and db will be averaged to 1/m)
-    dZ2 = 
-    dW2 = 
-    db2 = 
-    dZ1 = 
-    dW1 = 
-    db1 = 
-    #code ends here
+   
+    dZ2 = A2-Y
+    dW2 = 1/m*(np.dot(dZ2,A1.T))
+    db2 = 1/m*(np.sum(dZ2,axis=1, keepdims=True))
+    dZ1 = np.multiply(np.dot(W2.T,dZ2),(1-np.power(A1,2)))
+    dW1 = 1/m*(np.dot(dZ1,X.T))
+    db1 = 1/m*(np.sum(dZ1,axis=1, keepdims=True))
+    
     
     
     grads = {"dW1": dW1,
