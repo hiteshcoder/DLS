@@ -4,6 +4,16 @@ Created on Sat Jun  6 14:02:24 2020
 
 @author: hitz_
 """
+# =============================================================================
+# List of keras initializers that you can use 
+# https://keras.io/api/layers/initializers/
+# By default keras uses 'glorot_uniform'(thats good for tanh)
+# For a relu implementation -'he_uniform'
+# to read about great initialization techniques check the paper I posted
+# https://www.linkedin.com/posts/hitesh-nayak-27415750_weight-initialization-method-for-improving-activity-6668395185665396736-r1r1
+
+# =============================================================================
+
 import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
