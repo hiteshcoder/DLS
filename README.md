@@ -16,6 +16,9 @@ Assignment -2
 2.Implement the code for the data set of assignment 2, random states-20 , iteration =10000 , learning rate =1.2
 3.Change the parameteres , or change whatever is changable and produce a good accuracy for test. Compare with train and comment about bias and variance
 
+Assignment -3 
+Work on the data set in session 7 , work towards bias/variance. Understand regularization and initialization method. Give your commentary on which is bias/variance case and which is not.
+
 session -1 
 Understanding logistic regression and implementation in python
 This session also contains the conversion of linear regression to logistic regression
