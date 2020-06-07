@@ -19,6 +19,9 @@ Assignment -2
 Assignment -3 
 Work on the data set in session 7 , work towards bias/variance. Understand regularization and initialization method. Give your commentary on which is bias/variance case and which is not.
 
+Assignment -4 
+Image classification using CNN
+
 session -1 
 Understanding logistic regression and implementation in python
 This session also contains the conversion of linear regression to logistic regression
@@ -42,3 +45,9 @@ Session speaks about single layered neural network
 session -6 
 bakcpropagation of single layered neural network
 initialization methods
+
+Session - 7
+ANN using tensroflow and keras
+
+Session - 8 
+CNN , image classification
