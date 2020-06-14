@@ -54,3 +54,6 @@ CNN , image classification
 
 Session - 9 [13-06-2020]
 RNN concept and LSTM.
+
+Session 10[14-06-2020]
+Using LSTM to predict stock price 
