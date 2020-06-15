@@ -22,6 +22,11 @@ Work on the data set in session 7 , work towards bias/variance. Understand regul
 Assignment -4 
 Image classification using CNN
 
+Assignment-5 [14-06-2020]
+Stock price prediction using LSTM
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 session -1 
 Understanding logistic regression and implementation in python
 This session also contains the conversion of linear regression to logistic regression
@@ -54,3 +59,6 @@ CNN , image classification
 
 Session - 9 [13-06-2020]
 RNN concept and LSTM.
+
+Session 10[14-06-2020]
+Using LSTM to predict stock price 
