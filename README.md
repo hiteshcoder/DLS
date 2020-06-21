@@ -25,6 +25,9 @@ Image classification using CNN
 Assignment-5 [14-06-2020]
 Stock price prediction using LSTM
 
+Assignment-6[21-06-2020]
+Use SOM code to work out the diabetes dataset as an unsupervised learning
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 session -1 
@@ -62,3 +65,9 @@ RNN concept and LSTM.
 
 Session 10[14-06-2020]
 Using LSTM to predict stock price 
+
+session 11[20-06-2020]
+Self organizing maps theory understanding and knowing the concept by working out an example on pen and paper
+
+session 12[21-06-2020]
+Self organizing map implementation in python 
