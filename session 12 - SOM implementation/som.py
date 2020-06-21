@@ -11,7 +11,6 @@
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 """## Importing the dataset"""
 
@@ -36,9 +35,10 @@ som.train_random(data = X, num_iteration = 100)
 """#
 bone() - uses a bare bone canvas
 som.distance_map is the way of finfing the mean and then using the neuron distance
-
-
-"""#
+colorbar() helps you identify the class using color
+markers is used to mark 0 and 1 , color is to color the 0 and 1
+we are coloring and marking them depending upon y variable to compare it with the SOM formed and identify the defaults
+"""#description of logic"""
 from pylab import bone, pcolor, colorbar, plot, show
 bone()
 pcolor(som.distance_map().T)
@@ -58,6 +58,7 @@ show()
 
 """## Finding the frauds"""
 
+"""#explaination"""
 mappings = som.win_map(X)
 frauds = np.concatenate((mappings[(2,1)], mappings[(8,3)]), axis = 0)
 frauds = sc.inverse_transform(frauds)
