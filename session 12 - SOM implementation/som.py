@@ -59,7 +59,7 @@ show()
 """## Finding the frauds"""
 
 mappings = som.win_map(X)
-frauds = np.concatenate((mappings[(6,1)], mappings[(8,8)]), axis = 0)
+frauds = np.concatenate((mappings[(2,1)], mappings[(8,3)]), axis = 0)
 frauds = sc.inverse_transform(frauds)
 
 """##Printing the Fraunch Clients"""
