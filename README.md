@@ -28,6 +28,10 @@ Stock price prediction using LSTM
 Assignment-6[21-06-2020]
 Use SOM code to work out the diabetes dataset as an unsupervised learning
 
+Assignment-7[28-06-2020]
+Develop your own face recognition algorithm
+Download the data from https://www.kaggle.com/ashishpatel26/facial-expression-recognitionferchallenge
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 session -1 
@@ -71,3 +75,9 @@ Self organizing maps theory understanding and knowing the concept by working out
 
 session 12[21-06-2020]
 Self organizing map implementation in python 
+
+session 13[27-06-2020]
+Face recognition logic, algorithm 
+
+Session14[28-06-2020]
+Face recognition code run
