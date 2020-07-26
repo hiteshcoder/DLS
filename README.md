@@ -32,6 +32,10 @@ Assignment-7[28-06-2020]
 Develop your own face recognition algorithm
 Download the data from https://www.kaggle.com/ashishpatel26/facial-expression-recognitionferchallenge
 
+Assignment -8[26-7-2020]
+https://spacy.io/usage/spacy-101 
+Please follow this link by spacy to see and understand the qury types. Run them on your local system.
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 session -1 
