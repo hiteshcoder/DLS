@@ -36,6 +36,9 @@ Assignment -8[26-7-2020]
 https://spacy.io/usage/spacy-101 
 Please follow this link by spacy to see and understand the qury types. Run them on your local system.
 
+assignment - 9 [26-7-2020]
+Please go to session 17 and complete this assignment -"NLP-Basics-Assessment"
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 session -1 
